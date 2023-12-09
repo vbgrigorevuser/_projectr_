@@ -8,8 +8,7 @@
 4. Создание проекта django ```django-admin startproject back```
 5. Создание главного приложения api ```python3 manage.py startapp api```
 6. Изменение файла back/settings.py
-```
-...
+```...
 INSTALLED_APPS = [
     'api.apps.ApiConfig',
     'rest_framework',
