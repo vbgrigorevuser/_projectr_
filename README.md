@@ -1,2 +1,5 @@
 # _projectr_
-projectr_api
+
+## Шаги, сделанные для развертывания API
+
+1. Подготовка пространства venv ```python3 -m venv .venv``` 
