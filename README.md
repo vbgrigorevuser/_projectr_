@@ -15,4 +15,5 @@ INSTALLED_APPS = [
     'rest_framework',
 ...
 ```
-7. Разработка моделей (схемы базы данных) в файле api/models.py
+7. Подключение стандартных моделей django ```python3 manage.py makemigrations```, ```python3 manage.py migrate```
+8. Разработка моделей (схемы базы данных) в файле api/models.py
