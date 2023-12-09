@@ -15,3 +15,4 @@ INSTALLED_APPS = [
     'rest_framework',
     ...
 ```
+7. Разработка моделей (схемы базы данных) в файле api/models.py
