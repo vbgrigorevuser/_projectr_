@@ -19,8 +19,9 @@ INSTALLED_APPS = [
 8. Разработка моделей (схемы базы данных) в файле api/models.py
 9. Создание аккаунта админа ```python3 manage.py createsuperuser```
 10. Создание схемы базы данных (api/models)
-11. Обновление схемы ```python3 manage.py makemigrations```, ```python3 manage.py migrate```
-12. Создание сериализаторов в serilalizers.py
-13. Создание отображений back/views.py
-14. Добавление url'ов back/urls.py, api/urls.py
-15. 
+11. Регистрация моделей в api/admin.py
+12. Обновление схемы ```python3 manage.py makemigrations```, ```python3 manage.py migrate```
+13. Создание сериализаторов в serilalizers.py
+14. Создание отображений back/views.py
+15. Добавление url'ов back/urls.py, api/urls.py
+16. Проверка работы
