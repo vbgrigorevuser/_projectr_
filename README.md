@@ -17,3 +17,7 @@ INSTALLED_APPS = [
 ```
 7. Подключение стандартных моделей django ```python3 manage.py makemigrations```, ```python3 manage.py migrate```
 8. Разработка моделей (схемы базы данных) в файле api/models.py
+9. Создание аккаунта админа ```python3 manage.py createsuperuser```
+10. Создание схемы базы данных (api/models)
+11. Обновление схемы ```python3 manage.py makemigrations```, ```python3 manage.py migrate```
+12. 
