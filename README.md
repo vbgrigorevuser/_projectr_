@@ -21,6 +21,6 @@ INSTALLED_APPS = [
 10. Создание схемы базы данных (api/models)
 11. Обновление схемы ```python3 manage.py makemigrations```, ```python3 manage.py migrate```
 12. Создание сериализаторов в serilalizers.py
-13. Создание отображений
-14. Добавление url'ов
+13. Создание отображений back/views.py
+14. Добавление url'ов back/urls.py, api/urls.py
 15. 
