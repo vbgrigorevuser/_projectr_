@@ -20,4 +20,7 @@ INSTALLED_APPS = [
 9. Создание аккаунта админа ```python3 manage.py createsuperuser```
 10. Создание схемы базы данных (api/models)
 11. Обновление схемы ```python3 manage.py makemigrations```, ```python3 manage.py migrate```
-12. 
+12. Создание сериализаторов в serilalizers.py
+13. Создание отображений
+14. Добавление url'ов
+15. 
