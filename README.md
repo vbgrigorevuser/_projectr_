@@ -24,4 +24,14 @@ INSTALLED_APPS = [
 13. Создание сериализаторов в serilalizers.py
 14. Создание отображений back/views.py
 15. Добавление url'ов back/urls.py, api/urls.py
-16. Проверка работы
+16. Решение проблемы no 'Access-Control-Allow-Origin' при работе ```pip install django-cors-headers```
+17. Добавление в ```INSTALLED_APPS``` ```'corsheaders',```
+18. Правка ```MIDDLEWARE```
+```
+MIDDLEWARE = [  
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleware',
+    ...
+]
+```
+19. Перед ```INSTALLED_APPS``` вставка ```CORS_ORIGIN_ALLOW_ALL=True```
