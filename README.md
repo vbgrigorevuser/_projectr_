@@ -2,6 +2,8 @@
 
 ## Шаги, сделанные для развертывания API
 
+Справка: https://django.fun/articles/tutorials/sozdajte-rest-api-za-30-minut-s-pomoshyu-django-rest-framework/
+
 1. Подготовка пространства venv ```python3 -m venv .venv```, активация ```source .venv/bin/activate```
 2. Установка django и djangorestframework ```pip install django```, ```pip install djangorestframework```
 3. Создание папки для проекта ```makedir projectr```, переход в папку ```cd projectr```
